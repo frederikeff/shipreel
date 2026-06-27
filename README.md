@@ -2,6 +2,12 @@
 
 **Say what you want — a cartoon host delivers it as a multi-format social reel, and ships it for you.**
 
+🔗 **Live demo:** https://shipreel-one.vercel.app · **Repo:** https://github.com/frederikeff/shipreel
+
+> Built at the Vercel Ship hackathon. **Technologies:** Vercel (hosting + AI Gateway + the `eve` agent framework), Claude (Anthropic, via AI Gateway), Remotion, Supabase (Postgres + Storage), Auth0, Resend, OpenAI (TTS + image), Next.js, Tailwind.
+>
+> _Note: the live deploy showcases the agent, AI scripts, the character cast, and Supabase persistence. Voiceover and mp4 rendering run on the **local** dev server (they need a writable filesystem / headless Chromium) — see the demo video._
+
 You give ShipReel a topic (and optionally a few images and which of 20 cartoon
 hosts should present). It **writes the script**, **records a voiceover**,
 **renders the video** in 3 aspect ratios, lets **you approve it** (human in the
