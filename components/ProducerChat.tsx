@@ -41,7 +41,7 @@ export function ProducerChat({ onActivity }: { onActivity: () => void }) {
   }
 
   return (
-    <div className="flex h-full flex-col rounded-2xl border border-white/10 bg-white/[0.02]">
+    <div className="flex h-full flex-col rounded-2xl border border-white/12 bg-white/[0.04]">
       <div className="flex items-center gap-2 border-b border-white/10 px-4 py-3">
         <span className="text-lg">🎬</span>
         <div>

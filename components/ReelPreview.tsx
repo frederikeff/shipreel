@@ -53,7 +53,7 @@ export function ReelPreview({
 
   if (!reel) {
     return (
-      <div className="flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-white/10 bg-white/[0.02] p-10 text-center text-zinc-400">
+      <div className="flex h-full flex-col items-center justify-center gap-3 rounded-2xl border border-white/12 bg-white/[0.04] p-10 text-center text-zinc-400">
         <div className="text-5xl">🎬</div>
         <p className="max-w-xs text-sm">
           No reel yet. Use the form or ask the Producer on the left to make one — it’ll appear here
@@ -68,7 +68,7 @@ export function ReelPreview({
   const renderByFormat = new Map(reel.renders.map((r) => [r.format, r]));
 
   return (
-    <div className="flex h-full flex-col gap-4 rounded-2xl border border-white/10 bg-white/[0.02] p-4">
+    <div className="flex h-full flex-col gap-4 rounded-2xl border border-white/12 bg-white/[0.04] p-4">
       {/* status row */}
       <div className="flex items-center justify-between gap-2">
         <div>
